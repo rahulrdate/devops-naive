@@ -28,32 +28,31 @@ We will start with installation of Jenkins.
   - Java
   - Web Browser
 
-The simplest way to run Jenkins is using war file.
-  - Not to worry about configuration
-
-  - You know where your Jenkins related files and directories are.
-
 ---
 
 #### Download Jenkins war
 
+The simplest way to run Jenkins is using war file.
+
 - Download stable Jenkins war
 
 > `wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war`
+
+---
 
 #### Run `jenkins.war` using Java
 - Run Jenkins with logs on your console.
 
 > `java -jar jenkins.war`
 
-- We can specify JENKINS_HOME, RAM, PORT_NUMBER of our choice using
+- We can specify `JENKINS_HOME, RAM, PORT_NUMBER` of our choice using
 
-> `export JENKINS_HOME=/home/devops/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &`
+> `export JENKINS_HOME=/home/$USER/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &`
 
 In above command
 
 - We have set `JENKINS_HOME`
-Location where all your Jenkins files resides, it is `/home/devops/.jenkins` by default.
+location where all Jenkins files resides, it is `/home/$USER/.jenkins` by default.
 
 - `nohup` will direct all your output to nohup.out
 
@@ -70,7 +69,7 @@ You can see logs using `tail -f nohup.out`
 ---
 
 ### Your Jenkins is up
-Go to your browser and visit [http://localhost:6040](http://localhost:6040)
+Go to your browser and visit [`http://localhost:6040`](http://localhost:6040)
 
 - You will see Unlock Jenkins page.
 

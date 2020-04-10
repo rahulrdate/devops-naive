@@ -1,12 +1,15 @@
+
 ## devops-novice
-One thing I learned here is
-> You are always novice  
 
-I am curious about devops tools and processes. As a devops there are many things that you need to do. I would say that every task related to your application from requirement gathering to deployment is devops's task.
+---
 
-I am adding any scripts/set of commands which I use to set up things or processes as a devops.
+> ALWAYS NOVICE  
 
-Below are links to powerful tools in the devops world.
+I am curious about devops tools and processes. As a DevOps there are many things that you need to do. I would say that every task related to your application from requirement gathering to deployment is DevOps's task.
+
+---
+
+Below are links to powerful tools in the DevOps world.
 
 * [Jenkins](jenkins/jenkins.md)
 * [Docker](docker/docker.md)
