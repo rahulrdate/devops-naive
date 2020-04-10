@@ -1,3 +1,4 @@
+<div style="text-align: right"> <a href="../README.md"> devops-naive </a> </div>
 # Jenkins
 <img src="./images/jenkins.png" alt="Jenkins"
 	title="A cute kitten" width="100" height="150" />
@@ -29,11 +30,11 @@ The simplest way to run Jenkins is using war file.
 
 #### Run `jenkins.war` using Java
 - `java -jar jenkins.war` will run Jenkins with logs on your console.
-- We can specify JENKINS_HOME, RAM, port of our choice using `export JENKINS_HOME=/home/user/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &`
+- We can specify JENKINS_HOME, RAM, port of our choice using `export JENKINS_HOME=/home/devops/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &`
 
 In above command
 
-- We have set `JENKINS_HOME=/home/user/jenkins_home`
+- We have set `JENKINS_HOME=/home/devops/jenkins_home`
 Location where all your Jenkins files resides. By default it is `/home/devops/.jenkins`. If you want to migrate your Jenkins from one place to another you just have to migrate this directory.
 - `nohup` will direct all your output to nohup.out
 - `java` will run it as a java application
