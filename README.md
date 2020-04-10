@@ -1,9 +1,13 @@
-## Welcome to devops-novice
+:hammer_and_wrench:
+## devops-novice
+One thing I learned here is
+> You are always novice  
 
 I am curious about devops tools and processes. As a devops there are many things that you need to do. I would say that every task related to your application from requirement gathering to deployment is devops's task.
 
 I am adding any scripts/set of commands which I use to set up things or processes as a devops.
 
-Below are links to powerful tools in the devops world
+Below are links to powerful tools in the devops world.
 
-## [Jenkins](jenkins/jenkins.md)
+* [Jenkins](jenkins/jenkins.md)
+* [Docker](docker/docker.md)

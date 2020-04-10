@@ -1,11 +1,12 @@
 #### [devops-novice](../README.md)
-# Jenkins
-<img src="./images/jenkins.png" alt="Jenkins"
-	title="Jenkins" width="100" height="150" />
+# Docker
+<img src="./images/docker.png" alt="Docker"
+	title="Docker" width="150" height="130" />
 
 ## Introduction
-Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
+Docker is containerization technology which uses the Linux Kernel features to create containers on top of an operating system and automates application deployment on the container. Containers can be thought of as extremely lightweight, modular virtual machines.
 
+<!--
 ## Getting Started
 We will start with installation of Jenkins.
 
@@ -71,3 +72,4 @@ Go to your browser and visit [http://localhost:6040](http://localhost:6040)
 _[Jenkins](https://jenkins.io/)_
 
 #### [devops-novice](../README.md)
+-->
