@@ -1,4 +1,4 @@
-## Welcome to devops-naive
+## Welcome to devops-novice
 
 I am curious about devops tools and processes. As a devops there are many things that you need to do. I would say that every task related to your application from requirement gathering to deployment is devops's task.
 

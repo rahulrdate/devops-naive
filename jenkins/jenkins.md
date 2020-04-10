@@ -1,4 +1,4 @@
-#### [devops-naive](../README.md)
+#### [devops-novice](../README.md)
 # Jenkins
 <img src="./images/jenkins.png" alt="Jenkins"
 	title="A cute kitten" width="100" height="150" />
