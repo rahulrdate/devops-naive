@@ -1,4 +1,4 @@
-<div style="text-align: right"> <a href="../README.md"> devops-naive </a> </div>
+#### [devops-naive](../README.md)
 # Jenkins
 <img src="./images/jenkins.png" alt="Jenkins"
 	title="A cute kitten" width="100" height="150" />
