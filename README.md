@@ -4,4 +4,6 @@ I am curious about devops tools and processes. As a devops there are many things
 
 I am adding any scripts/set of commands which I use to set up things or processes as a devops.
 
-[Jenkins](Jenkins/README.md)
+Below are links to powerful tools in the devops world
+
+## [Jenkins](jenkins/jenkins.md)
