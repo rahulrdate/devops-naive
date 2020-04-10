@@ -1,4 +1,3 @@
-:hammer_and_wrench:
 ## devops-novice
 One thing I learned here is
 > You are always novice  

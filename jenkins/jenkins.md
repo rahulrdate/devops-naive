@@ -1,13 +1,22 @@
 #### [devops-novice](../README.md)
+
+---
+
 # Jenkins
 <img src="./images/jenkins.png" alt="Jenkins"
 	title="Jenkins" width="100" height="150" />
 
+---
+
 ## Introduction
 Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
 
+---
+
 ## Getting Started
 We will start with installation of Jenkins.
+
+---
 
 ### Prerequisites
 - Hardware requirements for a small team
@@ -19,23 +28,27 @@ We will start with installation of Jenkins.
   - Java
   - Web Browser
 
-Note: All the documentation here is with respect to Ubuntu OS. We have an ubuntu user as `devops`
-
 The simplest way to run Jenkins is using war file.
   - Not to worry about configuration
 
   - You know where your Jenkins related files and directories are.
 
+---
+
 #### Download Jenkins war
 
 - Download stable Jenkins war
-> wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+
+> `wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war`
 
 #### Run `jenkins.war` using Java
 - Run Jenkins with logs on your console.
-> java -jar jenkins.war
+
+> `java -jar jenkins.war`
+
 - We can specify JENKINS_HOME, RAM, PORT_NUMBER of our choice using
-> export JENKINS_HOME=/home/devops/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &
+
+> `export JENKINS_HOME=/home/devops/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &`
 
 In above command
 
@@ -54,6 +67,8 @@ Location where all your Jenkins files resides, it is `/home/devops/.jenkins` by 
 
 You can see logs using `tail -f nohup.out`
 
+---
+
 ### Your Jenkins is up
 Go to your browser and visit [http://localhost:6040](http://localhost:6040)
 
@@ -67,6 +82,8 @@ Go to your browser and visit [http://localhost:6040](http://localhost:6040)
 - Create First Admin User
 
 - Jenkins is Ready.
+
+---
 
 _[Jenkins](https://jenkins.io/)_
 

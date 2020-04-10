@@ -1,10 +1,16 @@
 #### [devops-novice](../README.md)
+
+
+---
+
 # Docker
 <img src="./images/docker.png" alt="Docker"
 	title="Docker" width="150" height="130" />
 
 ## Introduction
 Docker is containerization technology which uses the Linux Kernel features to create containers on top of an operating system and automates application deployment on the container. Containers can be thought of as extremely lightweight, modular virtual machines.
+
+---
 
 <!--
 ## Getting Started
