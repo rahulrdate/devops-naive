@@ -1,7 +1,7 @@
-## Welcome to devops-naive
+## devops-novice
 
-I am curious about devops tools and processes. As a devops there are many things that you need to do. I would say that every task related to your application from requirement gathering to deployment is devops's task.
+---
 
-I am adding any scripts/set of commands which I use to set up things or processes as a devops.
+Simple tools and scripts to get your devops journey going.
 
-[Jenkins](Jenkins/README.md)
+[devops-novice](https://rahulrdate.github.io/devops-novice/)
