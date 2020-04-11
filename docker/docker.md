@@ -49,7 +49,7 @@ Docker is containerization technology which uses the Linux Kernel features to cr
 
 `sudo add-apt-repository
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu
-   $(lsb_release -cs) 
+   $(lsb_release -cs)
    stable"`
 
 #### Install Docker Engine and docker-compose
@@ -60,11 +60,11 @@ Docker is containerization technology which uses the Linux Kernel features to cr
 
 ---
 
-#### Add current user to docker group"
+#### Add current user to docker group
 
 `sudo usermod -aG docker $USER`
 
-Log in and logout current user to avoid using `docker commands` with `sudo`
+Log in and logout current user to avoid using `docker commands with sudo`
 
 ---
 
