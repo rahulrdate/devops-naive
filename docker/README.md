@@ -4,4 +4,4 @@ Install Docker
 
 `./install_docker.sh`
 
-[devops-novice/docker](https://rahulrdate.github.io/devops-novice/docker/dokcer.html)
+[devops-novice/docker](https://rahulrdate.github.io/devops-novice/docker/docker.html)
