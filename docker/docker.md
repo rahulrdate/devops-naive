@@ -7,75 +7,73 @@
 <img src="./images/docker.png" alt="Docker"
 	title="Docker" width="150" height="130" />
 
+---
+
 ## Introduction
 Docker is containerization technology which uses the Linux Kernel features to create containers on top of an operating system and automates application deployment on the container. Containers can be thought of as extremely lightweight, modular virtual machines.
 
 ---
 
-<!--
-## Getting Started
-We will start with installation of Jenkins.
+### Docker Installation
 
-### Prerequisites
-- Hardware requirements for a small team
-  - 1GB+ RAM (min 256M)
-  - 50GB+ Drive space (min 10GB)
+#### Uninstall older Docker if any
 
+`sudo apt-get remove docker docker-engine docker.io containerd runc docker*`
 
-- Software requirements
-  - Java
-  - Web Browser
+#### Set up the repository
 
-Note: All the documentation here is with respect to Ubuntu OS. We have an ubuntu user as `devops`
+#### Installing required packages
 
-The simplest way to run Jenkins is using war file.
-  - Not to worry about configuration
+`sudo apt-get update`
 
-  - You know where your Jenkins related files and directories are.
+`sudo apt-get -y install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common`
 
-#### Download Jenkins war
+---		
 
-- Download stable Jenkins war
-> wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+#### Add Docker's official GPG Key
 
-#### Run `jenkins.war` using Java
-- Run Jenkins with logs on your console.
-> java -jar jenkins.war
-- We can specify JENKINS_HOME, RAM, PORT_NUMBER of our choice using
-> export JENKINS_HOME=/home/devops/jenkins_home; nohup java -Xms256m -Xmx1024m -jar jenkins.war --httpPort=6040 &
+`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
 
-In above command
+#### Verify key
 
-- We have set `JENKINS_HOME`
-Location where all your Jenkins files resides, it is `/home/devops/.jenkins` by default.
+`sudo apt-key fingerprint 0EBFCD88`
 
-- `nohup` will direct all your output to nohup.out
+---
 
-- `java` will run it as a java application
+#### Setup stable repository
 
-- `Xms, Xms` is min and max memory allocated for your Jenkins, this can be skipped
+`sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"`
 
-- `--httpPort=6040` will start Jenkins on port 6040, it is 8080 by default
+#### Install Docker Engine and docker-compose
 
-- `&` will run Jenkins in a subshell
+`sudo apt-get update`
 
-You can see logs using `tail -f nohup.out`
+`sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose`
 
-### Your Jenkins is up
-Go to your browser and visit [http://localhost:6040](http://localhost:6040)
+---
 
-- You will see Unlock Jenkins page.
+#### Add current user to docker group"
 
-- Copy secret key from
-`$JENKINS_HOME/secrets/initialAdminPassword` and unlock Jenkins.
+`sudo usermod -aG docker $USER`
 
-- Install suggested plugins.
+Log in and logout current user to avoid using `docker commands` with `sudo`
 
-- Create First Admin User
+---
 
-- Jenkins is Ready.
+#### Verify docker Installation
 
-_[Jenkins](https://jenkins.io/)_
+`sudo docker run hello-world`
+
+---
+
+_[Docker](https://www.docker.com/)_
 
 #### [devops-novice](../README.md)
--->

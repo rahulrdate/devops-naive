@@ -20,13 +20,17 @@ We will start with installation of Jenkins.
 
 ### Prerequisites
 - Hardware requirements for a small team
-  - 1GB+ RAM (min 256M)
-  - 50GB+ Drive space (min 10GB)
+
+	- 1GB+ RAM (min 256M)
+
+	- 50GB+ Drive space (min 10GB)
 
 
 - Software requirements
-  - Java
-  - Web Browser
+
+	- Java
+
+	- Web Browser
 
 ---
 
