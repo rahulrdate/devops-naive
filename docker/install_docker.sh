@@ -29,6 +29,10 @@ echo "==== Install Docker Engine and docker-compose"
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose
 
+echo "==== Enable docker service"
+sudo systemctl enable docker
+sudo systemctl start docker
+
 echo "==== Add current user to docker group"
 sudo usermod -aG docker $USER
 
