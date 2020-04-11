@@ -129,7 +129,9 @@ Copy file from host to running container
 
 ### Diff
 
-List the changed files and directories in a container᾿s filesystem since the container was created. A: added, D: deleted, C: changed
+List the changed files and directories in a container᾿s filesystem since the container was created.
+
+A: added, D: deleted, C: changed
 
 `docker diff container-name`
 
@@ -156,6 +158,10 @@ List the changed files and directories in a container᾿s filesystem since the c
 ### Docker container information
 
 `docker inspect container-name`
+
+---
+
+Previous: [Docker Installation](docker.md)
 
 ---
 
