@@ -63,7 +63,15 @@ Docker is containerization technology which uses the Linux Kernel features to cr
 
 `sudo usermod -aG docker $USER`
 
-Log in and logout current user to avoid using `docker commands with sudo`
+Log in and logout current user to avoid using docker commands with `sudo`
+
+---
+
+#### Start docker service
+
+`sudo systemctl enable docker`
+
+`sudo systemctl start docker`
 
 ---
 
