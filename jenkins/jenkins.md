@@ -88,6 +88,12 @@ Go to your browser and visit [`http://localhost:6040`](http://localhost:6040)
 
 ---
 
+#### Install and start Jenkins with a single script
+
+[start_jenkins.sh](https://github.com/rahulrdate/devops-novice/blob/master/jenkins/start_jenkins.sh)
+
+---
+
 _[Jenkins](https://jenkins.io/)_
 
 #### [devops-novice](../README.md)
