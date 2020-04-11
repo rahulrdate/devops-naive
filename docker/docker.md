@@ -26,11 +26,11 @@ Docker is containerization technology which uses the Linux Kernel features to cr
 
 `sudo apt-get update`
 
-`sudo apt-get -y install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
+`sudo apt-get -y install
+    apt-transport-https
+    ca-certificates
+    curl
+    gnupg-agent
     software-properties-common`
 
 ---		
@@ -47,9 +47,9 @@ Docker is containerization technology which uses the Linux Kernel features to cr
 
 #### Setup stable repository
 
-`sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
+`sudo add-apt-repository
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu
+   $(lsb_release -cs) 
    stable"`
 
 #### Install Docker Engine and docker-compose
