@@ -6,7 +6,6 @@ RUN apk update
 RUN apk add curl
 # Copy file
 COPY helloworld.sh /opt/helloworld.sh
-RUN touch a
 # Perform operation on file
 RUN chmod +x helloworld.sh
 # Command to be executed when container starts
