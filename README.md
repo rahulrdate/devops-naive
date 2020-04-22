@@ -9,7 +9,7 @@ I am curious about devops tools and processes. As a DevOps there are many things
 
 ---
 
-Below are links to powerful tools in the DevOps world.
+:arrow_double_down: Below are links to powerful tools in the DevOps world.
 
 * [Jenkins](jenkins/jenkins.md)
 * [Docker](docker/docker.md)
