@@ -14,3 +14,4 @@ Below are links to powerful tools in the DevOps world.
 * [Jenkins](jenkins/jenkins.md)
 * [Docker](docker/docker.md)
   - [Cheatsheet](docker/docker-cheat-sheet.md)
+  - [Dockerfile](docker/dockerfile.md)
