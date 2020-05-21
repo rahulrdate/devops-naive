@@ -22,6 +22,30 @@ This analogy makes it simple to understand.
 
 ---
 
+A Dockerfile must be saved as a file `Dockerfile`
+
+Let us see a sample Dockerfile
+
+
+```
+FROM ubuntu:18.04
+RUN apt update
+RUN apt install -y nginx
+ADD run.sh /
+ENTRYPOINT ["bash","run.sh"]
+```
+
+Save above file as `Dockerfile`.
+
+* `FROM` creates layer from `ubuntu:18.04` Docker Image
+* `RUN` will execute command `apt update` and `apt install -y nginx` This will create layer of nginx installation. This container will have `nginx` installed
+* `ADD` will add `run.sh` in image
+* `ENTRYPOINT` will specify action to perform on container start
+
+Each line in Dockerfile will add a new writable container layer to Docker Image.
+
+---
+
 # docker build
 
 The `docker build` command is used to create image from `Dockerfile` and `context`.
