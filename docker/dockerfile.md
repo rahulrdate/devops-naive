@@ -4,7 +4,7 @@
 
 # Dockerfile
 
-A Dockerfile is a text document without an extension which contains all the commands in order which Docker can use to create a docker image.
+A Dockerfile is a text document without an extension which contains all the commands in order which Docker daemon can use to create a docker image.
 
 > *Dockerfile* > `build` > *Docker Image* > `run` > *Docker Container*
 
