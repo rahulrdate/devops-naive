@@ -24,5 +24,8 @@ start_jenkins(){
   echo "Visit Jenkins at http://127.0.0.1:${JENKINS_PORT}"
 }
 
+mkdir -p $JENKINS_HOME
+mkdir -p $JENKINS_DIR
+
 get_jenkins
 start_jenkins
