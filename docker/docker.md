@@ -9,9 +9,27 @@
 ---
 
 ## Introduction
-Docker is containerization technology which uses the Linux Kernel features to create containers on top of an operating system and automates application deployment on the container. Containers can be thought of as extremely lightweight, modular virtual machines.
+Containerization involves bundling an application together with all of its related configuration files, libraries and dependencies required for it to run in an efficient and bug-free way across different computing environments.
+
+Docker is containerization technology which uses the Linux Kernel features to create containers on top of an operating system and automates application deployment on the container. Containers can be thought of as extremely lightweight, modular virtual machines. Docker is a platform to build, run, and share applications with containers.
 
 ---
+
+### Benefits of Docker
+
+- Flexible: Even the most complex applications can be containerized.
+- Lightweight: Containers leverage and share the host kernel, making them much more efficient in terms of system resources than virtual machines.
+- Portable: You can build locally, deploy to the cloud, and run anywhere.
+- Loosely coupled: Containers are highly self sufficient and encapsulated, allowing you to replace or upgrade one without disrupting others.
+- Scalable: You can increase and automatically distribute container replicas across a datacenter.
+- Secure: Containers apply aggressive constraints and isolations to processes without any configuration required on the part of the user.
+
+### Image vs Container
+
+- Docker Image: An image includes everything needed to run an application - the code or binary, runtimes, dependencies, and any other filesystem objects required.
+
+- Docker Container: A container is nothing but a running process, with some added encapsulation features applied to it in order to keep it isolated from the host and from other containers.
+
 
 ### Docker Installation
 

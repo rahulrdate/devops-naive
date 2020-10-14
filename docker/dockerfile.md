@@ -20,12 +20,11 @@ A Dockerfile can be thought of as a class, docker image as an object and docker 
 
 This analogy makes it simple to understand.
 
----
-
 A Dockerfile must be saved as a file `Dockerfile`
 
-Let us see a sample Dockerfile
+---
 
+Let us see a sample `Dockerfile`
 
 ```
 FROM ubuntu:18.04
@@ -35,7 +34,7 @@ ADD run.sh /
 ENTRYPOINT ["bash","run.sh"]
 ```
 
-Save above file as `Dockerfile`.
+Save above file with name `Dockerfile`.
 
 * `FROM` creates layer from `ubuntu:18.04` Docker Image
 * `RUN` will execute command `apt update` and `apt install -y nginx` This will create layer of nginx installation. This container will have `nginx` installed
