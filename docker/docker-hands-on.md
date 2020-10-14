@@ -9,10 +9,11 @@
 ---
 
 ## Introduction
-We will create docker image and perform some operations on the same. Just execute the commands and you will get taste of Docker.
+Just execute the commands and you will get taste of Docker.
 
 We will use docker images present on [docker hub](https://hub.docker.com/).
 
+Later we will create a simple docker image and play with it.
 
 ---
 ## Try out different docker commands
@@ -105,7 +106,7 @@ We have multiple options available with `docker run` which can be used to run do
 
 `docker run -it --name mytomcat --rm -p 8888:8080 tomcat:9.0`
 
-| OPTION        |  Description   |
+| option        |  Description   |
 | ------------- | --------|
 | `--interactive , -i`  | Keep STDIN open even if not attached  |
 | `--tty , -t`  | Allocate a pseudo-TTY  |
