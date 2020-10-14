@@ -13,5 +13,6 @@ I am curious about devops tools and processes. As a DevOps there are many things
 
 * [Jenkins](jenkins/jenkins.md)
 * [Docker](docker/docker.md)
-  - [Cheatsheet](docker/docker-cheat-sheet.md)
+  - [Docker Hands-on](docker/docker-hands-on.md)
   - [Dockerfile](docker/dockerfile.md)
+  - [Cheatsheet](docker/docker-cheat-sheet.md)
