@@ -11,13 +11,13 @@
 ## Introduction
 We will create docker image and perform some operations on the same. Just execute the commands and you will get taste of Docker.
 
-We will use docker images present on [docker hub](https://hub.docker.com/)
+We will use docker images present on [docker hub](https://hub.docker.com/).
 
 
 ---
 ## Try out different docker commands
 
-We will use simple `hello-world` image from docker hub to try out basic commands
+We will use `hello-world` image from docker hub to try out basic commands.
 
 ### Docker Basic commands
 
@@ -33,7 +33,7 @@ docker pull will always pull 'latest' tag if not specified.
 
 #### docker push
 
-You will need docker hub account for this (Can skip for now)
+You will need docker hub account for this (Can skip for now).
 
 `docker push hello-world`
 
@@ -45,13 +45,13 @@ You will need docker hub account for this (Can skip for now)
 
 #### run docker container
 
-We will use `hello-world` image to try out docker commands
+We will use `hello-world` image to try out docker commands.
 
 `docker run hello-world`
 
 #### run docker container with options
 
-Give name of your choice to the container
+Give name of your choice to the container.
 
 `docker run --name mycontainer hello-world`
 
@@ -68,7 +68,7 @@ Give name of your choice to the container
 #### get container logs
 `docker logs mycontainer`
 
-You can stream the logs using `-f` or `--follow`
+You can stream the logs using `-f` or `--follow`.
 
 `docker logs -f mycontainer`
 
@@ -84,7 +84,7 @@ You can stream the logs using `-f` or `--follow`
 
 #### remove container
 
-Container must be stopped before removing
+Container must be stopped before removing.
 
 `docker rm mycontainer`
 
@@ -107,20 +107,18 @@ We have multiple options available with `docker run` which can be used to run do
 
 | OPTION        |  Description   |
 | ------------- | --------|
-| --interactive , -i  | Keep STDIN open even if not attached  |
-| --tty , -t  | Allocate a pseudo-TTY  |
-| --rm  | Automatically remove the container when it exits  |
-| --publish , -p | Publish a container’s port(s) to the host   |
+| `--interactive , -i`  | Keep STDIN open even if not attached  |
+| `--tty , -t`  | Allocate a pseudo-TTY  |
+| `--rm`  | Automatically remove the container when it exits  |
+| `--publish , -p` | Publish a container’s port(s) to the host   |
 
 Visit http://localhost:8888
 
-You should get 404
-
-This means that your container is up and running
+You should get 404, this means that your container is up and running
 
 You can try out commands in above section on this container.
 
-Press `Ctrl+c` to exit container
+Press `Ctrl+c` to exit container.
 
 ---
 #### Running MySQL image
@@ -134,18 +132,18 @@ mkdir docker-learn
 cd docker-learn
 ```
 
-Create a file named `Dockerfile`
+Create a file named `Dockerfile`.
 
-Add below lines to the file
+Add below lines to the file.
 
 ```
 FROM alpine
 ENTRYPOINT ["sh","run.sh"]
 ```
 
-Create a file named `run.sh`
+Create a file named `run.sh`.
 
-Add below lines to the file
+Add below lines to the file.
 
 ```
 #!/bin/sh
@@ -153,27 +151,27 @@ echo "Yay! I have created a docker image and started container using it"
 
 ```
 
-Execute below command to create docker image
+Execute below command to create docker image.
 
 ```
 docker build -t myfirstimage .
 ```
 
-This will create an image named `myfirstimage`
+This will create an image named `myfirstimage`.
 
 ---
 
 ### Running docker image
 
-We will run the docker image created above
+We will run the docker image created above.
 
-Execute below command to run the image
+Execute below command to run the image.
 
 ```
 docker run --name myfirstcontainer myfirstimage
 ```
 
-You should get output as
+You should get output as:
 
 ```
 Yay! I have created a docker image and started container using it
