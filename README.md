@@ -20,4 +20,5 @@ I am curious about devops tools and processes. As a DevOps there are many things
 
 
 
-Author: <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="rahul-date-2bb65645" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/rahul-date-2bb65645?trk=profile-badge">Rahul Date</a></div>
+Author: 
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> [Rahul Date](https://in.linkedin.com/in/rahul-date-2bb65645?trk=profile-badge)
