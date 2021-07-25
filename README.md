@@ -17,8 +17,3 @@ I am curious about devops tools and processes. As a DevOps there are many things
   - [Dockerfile](docker/dockerfile.md)
   - [Cheatsheet](docker/docker-cheat-sheet.md)
 * [Git](git/git.md)
-
-
-
-Author: 
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> [Rahul Date](https://in.linkedin.com/in/rahul-date-2bb65645?trk=profile-badge)
