@@ -12,7 +12,7 @@ We will see basic commands which are widely used.
 `pwd`
 
 ### cd - change directory
-cd dir - cd to dir
+ `cd dir` - cd to dir
 
  `cd /` - cd to root
 
