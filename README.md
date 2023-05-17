@@ -17,3 +17,4 @@ I am curious about devops tools and processes. As a DevOps there are many things
   - [Dockerfile](docker/dockerfile.md)
   - [Cheatsheet](docker/docker-cheat-sheet.md)
 * [Git](git/git.md)
+* [Shell Commands](shell-commands/shell.md)
